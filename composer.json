@@ -1,0 +1,16 @@
+{
+    "name": "simonetti/infra-toolkit",
+    "description": "Infra Toolkit da simonetti",
+    "type": "project",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Vinicius de Sa",
+            "email": "vinicius@moveissimonetti.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aws/aws-sdk-php": "~3"
+    }
+}

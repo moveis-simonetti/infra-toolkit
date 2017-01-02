@@ -3,7 +3,7 @@
 - Copy `.env.dist` to `.env` and edit with your data
 
 ### Build
-- `./docker-buil.sh`
+- `./docker-build.sh`
 
 ### Run
 - `./docker-run.sh`

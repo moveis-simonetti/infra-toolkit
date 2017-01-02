@@ -7,10 +7,15 @@
         {
             "name": "Vinicius de Sa",
             "email": "vinicius@moveissimonetti.com.br"
+        },
+        {
+            "name": "Miller P. Magalhaes",
+            "email": "miller@mpdev.com.br"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "aws/aws-sdk-php": "~3"
+        "aws/aws-sdk-php": "~3",
+        "vlucas/phpdotenv": "~2"
     }
 }

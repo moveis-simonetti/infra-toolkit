@@ -3,6 +3,9 @@
 // Include the SDK using the Composer autoloader
 require __DIR__ . '/vendor/autoload.php';
 
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->overload();
+
 $Instance = [getenv('AWS_INSTANCE_TO_REGENERATE')];
 
 $ec2Client = new \Aws\Ec2\Ec2Client(
